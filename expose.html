@@ -13,7 +13,7 @@
 
   <!-- Main Stylesheet & Scripts -->
   <link rel="stylesheet" href="assets/styles/global.css" />
-  <script src="./assets/scripts/expose.js" type="module"></script>
+  <script src="assets/scripts/expose.js" type="module"></script>
 </head>
 
 <body>
@@ -27,18 +27,18 @@
       <header>
         <h2>Expose - Party Horn</h2>
       </header>
-      <img src="assets/images/no-image.png" alt="No image selected" />
+      <img src="assets/images/no-image.png" alt="No image selected" id="hornpic"/>
       <select name="horn" id="horn-select">
         <option value="select" disabled selected>Select Horn:</option>
         <option value="air-horn">Air Horn</option>
-        <option value="car-horn">Car Horn</option>
+        <option value="car-horn" >Car Horn</option>
         <option value="party-horn">Party Horn</option>
       </select>
       <div id="volume-controls">
         <input type="range" name="volume" id="volume" value="50" min="0" max="100" step="1" />
-        <img src="assets/icons/volume-level-2.svg" alt="Volume level 2" />
+        <img src="assets/icons/volume-level-2.svg" alt="Volume level 2" id="volume-image"/>
       </div>
-      <button>Play Sound</button>
+      <button id="sound">Play Sound</button>
       <audio class="hidden" src=""></audio>
     </section>
   </main>
