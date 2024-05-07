@@ -2,7 +2,15 @@
 Name: Melissa Osheroff
 Partner: Ruiping Fang
 
+Link to main page:
+[https://mosherof.github.io/Lab5_Starter/](https://mosherof.github.io/Lab5_Starter/)
+
+
+Link to Expose:
+
 [https://mosherof.github.io/Lab5_Starter/expose.html](https://mosherof.github.io/Lab5_Starter/expose.html)
+
+Link to Explore: 
 
 [https://mosherof.github.io/Lab5_Starter/explore.html](https://mosherof.github.io/Lab5_Starter/explore.html)
 
