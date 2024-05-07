@@ -20,8 +20,10 @@ function changeHorn(){
 
 function playSound() {
   document.getElementsByTagName("audio")[0].play();
-  const jsConfetti = new JSConfetti();
-  jsConfetti.addConfetti();
+  if (document.getElementById("horn-select").value == "party-horn") {
+    const jsConfetti = new JSConfetti();
+    jsConfetti.addConfetti();
+  }
 }
 
 function changeVolume() {
